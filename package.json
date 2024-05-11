@@ -1,0 +1,18 @@
+{
+  "name": "empty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/swagger": "^8.14.0",
+    "@scalar/fastify-api-reference": "^1.22.30",
+    "fastify": "^4.27.0"
+  }
+}
